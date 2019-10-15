@@ -2,7 +2,7 @@
 
 目前测试网使用的版本最低要求是主网force-v1.7.1版本．建议使用github上面的最新代码编译出来的最新版.
 
-测试网根结点P2P地址：115.206.245.226:19088
+测试网根结点P2P地址：147.52.71.18：10000
 
 **此地址将在测试网完全启动以后关闭**
 
@@ -16,7 +16,7 @@
 ## 1.更换config
 
 将config文件夹中的genesis.json替换为原来的genesis.json。
-config.ini文件可以使用文件夹中的config.ini文件，也可以把p2p-peer-address地址修改为p2p-peer-address = 115.206.245.226:19088
+config.ini文件可以使用文件夹中的config.ini文件，也可以把p2p-peer-address地址修改为p2p-peer-address = 47.52.71.18:10000
 
 ## 2.选择一份空的data文件夹启动节点
 
