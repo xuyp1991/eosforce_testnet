@@ -13,16 +13,16 @@
 
 # 原来有测试网节点启动流程
 
-## 更换config
+## 1.更换config
 
 将config文件夹中的genesis.json替换为原来的genesis.json。
 config.ini文件可以使用文件夹中的config.ini文件，也可以把p2p-peer-address地址修改为p2p-peer-address = 115.206.245.226:19088
 
-## 选择一份空的data文件夹启动节点
+## 2.选择一份空的data文件夹启动节点
 
 使用命令./nodeos --config-dir=./config --data-dir=./data 启动节点
 
-# BP帐户创建
+## 3.BP帐户创建
 
 可以把公钥发给开发团队来创建帐户，开发团队会给新的帐户打测试币以便测试网的功能的调用。创建完帐户以后注册BP并给BP投票，然后修改config.ini
 添加：
